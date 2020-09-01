@@ -1,0 +1,19 @@
+<div>
+    <h1>Upload Video</h1>
+    <form action="/upload-video" method="POST" enctype="multipart/form-data">
+        <div>
+            <label>Select Video</label>
+            <input type="file" name="video" accept="video/*" required>
+        </div><br>
+        <div>
+            <label>Title</label>
+            <input type="text" name="title" required>
+        </div><br>
+        <div>
+            <label>Description</label>
+            <textarea name="description" required>
+                    </textarea>
+        </div><br>
+        <input type="submit" value="Upload">
+    </form>
+</div>
